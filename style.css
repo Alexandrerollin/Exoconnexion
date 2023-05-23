@@ -3,9 +3,14 @@
 form {
     width: 400px;
     height: 250px;
+    margin: auto;
 }
 
 h1 {
+    text-align: center;
+}
+
+.button {
     text-align: center;
 }
 
