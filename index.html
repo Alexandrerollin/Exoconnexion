@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exoconnexion</title>
+</head>
+<body>
+
+    <form action="connexion.php" method="POST">
+        <fieldset>
+
+            <h1>Connexion</h1>
+
+            <div>
+            <label for="pseudo">Pseudo</label>
+            <input type="text" name="pseudo" id="pseudo" placeholder="Mon pseudo">
+            </div>
+
+            <div>
+            <label for="password">Mot de passe</label>
+            <input type="password" name="password" id="password" placeholder="Mon mot de passe">
+            </div>
+
+            <div>
+            <input type="checkbox" name="souvenir" id="souvenir" checked>
+            <label for="souvenir">Se souvenir de moi</label>
+            </div>
+
+            <div>
+            <input type="submit" value="Connexion">
+            <input type="reset" value="Retour">
+            </div>
+
+        </fieldset>
+    </form>
+    
+</body>
+</html>
