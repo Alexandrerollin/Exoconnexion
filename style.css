@@ -18,7 +18,7 @@ h1 {
 
 .button {
     text-align: center;
-    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .pseudo {
@@ -33,17 +33,24 @@ h1 {
 
 .check {
     margin-left: 30px;
+    margin-top: 10px;
 }
 
 .souv {
     margin-left: 10px;
 }
 
-.connexion {
-    padding: 5px 5px;
+.retour {
+    margin-top: 20px;
+    padding: 5px;
+    margin-left: 10px;
 }
 
-.retour {
-    padding: 5px 5px;
+.connexion {
+    margin-top: 20px;
+    padding: 5px;
+    margin-right: 10px;
 }
+
+
 /* ID sélectors */
