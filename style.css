@@ -6,14 +6,44 @@ form {
     margin: auto;
 }
 
-h1 {
-    text-align: center;
+fieldset {
+    background-color: rgb(156, 156, 156);
 }
 
-.button {
+h1 {
     text-align: center;
 }
 
 /* Class sélectors */
 
+.button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pseudo {
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.mdp {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.check {
+    margin-left: 30px;
+}
+
+.souv {
+    margin-left: 10px;
+}
+
+.connexion {
+    padding: 5px 5px;
+}
+
+.retour {
+    padding: 5px 5px;
+}
 /* ID sélectors */
